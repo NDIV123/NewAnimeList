@@ -1,6 +1,6 @@
 import { divide } from 'mathjs'
 import Image from 'next/image'
-import AnimeList from './components/AnimeList'
+import AnimeList from '../components/AnimeList'
 import Link from 'next/link'
 
 const Home = async () => {
