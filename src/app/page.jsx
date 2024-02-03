@@ -11,7 +11,7 @@ const Page = async () => {
       <section>
         <Header
           title="Paling Populer"
-          linkTitle="Lihat Semua"
+          linkTitle="Lihat Semua..."
           linkHref="/Populer"
         />
         <AnimeList api={topAnime} />
@@ -19,7 +19,7 @@ const Page = async () => {
       <section>
         <Header
           title="Anime Season Ini"
-          linkTitle="Lihat Semua"
+          linkTitle="Lihat Semua..."
           linkHref="/Ongoing"
         />
         <AnimeList api={seasonIni} />
